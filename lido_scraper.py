@@ -95,7 +95,7 @@ sleep(2)
 
 driver.find_element_by_name("username").send_keys("AerolineasArgentinas") ## busco elemento por name y agrego valor de usuario
 
-driver.find_element_by_name ("password").send_keys("AscWZ4QQ")  ## busco elemento por name y agrego valor de password
+driver.find_element_by_name ("password").send_keys("")  ## busco elemento por name y agrego valor de password
 
 element=driver.find_element_by_name("login")## busco elemento name login
 
